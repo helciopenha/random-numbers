@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Random Numbers</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+<body>
+  <header>
+    <h1>Gerarção de Números Aleatórios</h1>
+    <p>Para gerar os números aleatórios preencha os campos a seguir e clique em gerar,
+      onde o <strong>Mínimo</strong> é o menor número a ser gerado,
+      o <strong>Máximo</strong> é o maior número a ser gerado
+      e a <strong>Quantidade</strong> são quantos números aleatórios vão ser gerados.</p>
+  </header>
+
+  <section id="form">
+    <form>
+      <div class="form-group">
+        <label for="number_min">Mínimo</label>
+        <input type="number" name="number_min" id="number_min" />
+      </div>
+      <div class="form-group">
+        <label for="number_max">Máximo</label>
+        <input type="number" name="number_max" id="number_max" />
+      </div>
+      <div class="form-group">
+        <label for="number_min">Quantidade</label>
+        <input type="number" name="quantity" id="quantity" />
+      </div>
+      <button id="button-form" class="btn btn-first">Gerar</button>
+    </form>
+  </section>
+  
+  <section id="result" class=""></section>
+  
+  <script src="./js/app.js" type="module"></script>
+</body>
+</html>
